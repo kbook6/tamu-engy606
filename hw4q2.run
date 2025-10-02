@@ -1,0 +1,5 @@
+reset;
+model hw4q2.mod;
+option solver './xpress';
+solve;
+display x1, x2, z;
