@@ -1,0 +1,25 @@
+set P := a b c; #products
+set M := machine1 machine2 machine3; #machines
+
+param num_machines := 
+machine1 5
+machine2 3
+machine3 4;
+
+param c := 
+a 6000
+b 8000
+c 10000;
+
+param b := # num of machines per row * number of hours
+machine1 200
+machine2 120
+machine3 160;
+
+param a :   a   b   c :=
+machine1    4   2   6
+machine2    6   4   8
+machine3    6   10   10;
+
+# available working hours = number of workers (10) * working hours (40)
+param total_worker_hours := 400;
