@@ -1,0 +1,26 @@
+set P := steak groundbeef; #products
+set S := bulk packaged; #style
+
+# unprocessed beef = $4/lb
+# 1 lb unprocessed = 0.5 lb steak + 0.5 lb ground beef
+# steak = $15/whole pound or $20/cut pound
+# 1 hour to cut and prepare 100 lb of steak
+# ground beef = $6/lb bulk or pack/sold at $9/lb 
+# 0.5 hr to package 10 lb of ground beef
+
+param cost := 4;
+param buying_power := 1000;
+# cutting and producing time constraint
+param max_hours := 6;
+
+param product_yield :=
+steak 0.5
+groundbeef 0.5;
+
+param price : bulk packaged:=
+steak 14 19
+groundbeef 5 8;
+
+param time :=
+steak 1
+groundbeef 0.5;

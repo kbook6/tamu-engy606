@@ -1,0 +1,11 @@
+reset;
+
+option solver './gurobi';
+
+model hw1q2.mod;
+data hw1q2.dat;
+
+solve;                  
+display buy;
+display sell;
+display profit;
