@@ -1,7 +1,8 @@
 # tamu-engy606
 Practice Problem Files completed in ENGY 606 - Introduction to Optimization
 
-All problem outlines were given in ENGY 606.
+ALL PROBLEM OUTLINES WERE GIVEN IN ENGY 606. 
+These uploads are to show my familiarity with AMPL code as well as basic creation of code using base outlines. 
 
 #####################################################################################  
 HW 1 Q1:
